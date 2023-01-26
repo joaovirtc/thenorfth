@@ -1,9 +1,11 @@
 import * as S from "./styles";
 import BotaoPrimario from "../../components/botaoPrimario";
 import { RiArrowRightSLine } from "react-icons/ri";
+import { RiAppleFill } from "react-icons/ri";
 import NFT from "../../assets/img.png";
 import CardDestaque from "../../components/cardDestaque";
 import ImageDestaque from "../../assets/nft-card.png";
+import Mockup from "../../assets/mockup.png";
 export default function Home() {
   return (
     <>
@@ -35,7 +37,7 @@ export default function Home() {
           </div>
         </S.Content__>
       </S.Container>
-
+      <S.Blur></S.Blur>
       <CardDestaque
         name="MONKEY ELEGANT"
         autor="@Ricky Wiliams"
@@ -46,6 +48,23 @@ export default function Home() {
         priceMoney="R$ 5,473.90"
         image={ImageDestaque}
       />
+
+      <S.promotionContainer>
+        <S.promotionContent>
+          <div>
+            <h1>Conecte sua carteira</h1>
+            <p>
+              Conecte sua carteira Apple aqui, assim fica mais fácil você ter
+              controle sobre suas financias, e também para ficar por dentro de
+              todas as oscilações do mercado
+            </p>
+            <BotaoPrimario title="Conectar com Apple" icon={<RiAppleFill />} />
+          </div>
+          <section>
+            <img src={Mockup} alt="" />
+          </section>
+        </S.promotionContent>
+      </S.promotionContainer>
     </>
   );
 }

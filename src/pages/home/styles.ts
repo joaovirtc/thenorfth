@@ -116,3 +116,59 @@ export const Content__ = styled.div`
     display: none;
   }
 `;
+
+export const promotionContainer = styled.div`
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const promotionContent = styled.div`
+  width: 80%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  div {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #fff;
+    padding: 10px;
+
+    @media screen and (max-width: 800px) {
+      width: 100%;
+      height: 100%;
+      justify-content: space-between;
+    }
+  }
+  section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid #fff;
+  }
+`;
+
+export const Blur = styled.div`
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background: #00CC52;
+  filter: blur(200px);
+  position: relative;
+  z-index: -1000;
+`;

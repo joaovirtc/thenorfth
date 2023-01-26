@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.a`
-  width: 190px;
+  width: 200px;
   height: 50px;
   background: transparent;
   border-radius: 10px;
@@ -14,4 +14,7 @@ export const Container = styled.a`
   cursor: pointer;
   padding: 5px;
   border: 1px solid #00cc52;
+
+  &:hover {
+  }
 `;

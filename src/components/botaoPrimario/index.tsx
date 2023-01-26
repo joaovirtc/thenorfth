@@ -2,8 +2,7 @@ import { Container } from "./styles";
 
 type botaoPrimarioProps = {
   title: string;
-  icon?: any;
-  size?: any;
+  icon: any;
 };
 
 const botaoPrimario = ({ title = "", icon = "" }: botaoPrimarioProps) => {

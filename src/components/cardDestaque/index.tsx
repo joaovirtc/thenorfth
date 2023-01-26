@@ -18,7 +18,7 @@ const cardDestaque = ({
   autor = "",
   description = "",
   priceCoin = "",
-  priceMoney = 5,
+  priceMoney = "",
   image = {},
 }: cardDestaqueProps) => {
   return (
@@ -31,6 +31,7 @@ const cardDestaque = ({
             <h3>{autor}</h3>
             <p>{description}</p>
             <h3>PREÇO</h3>
+
             <h1>{priceCoin}</h1>
             <p>{priceMoney}</p>
             <div>

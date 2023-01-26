@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.a`
-  width: 190px;
+  width: 200px;
   height: 50px;
-  background: linear-gradient(93.08deg, #00cc52 0%, #105261 88.45%);
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -13,4 +12,8 @@ export const Container = styled.a`
   font-weight: 500;
   cursor: pointer;
   padding: 5px;
+  background: linear-gradient(90deg, #00cc52 0%, #105261 100%);
+
+  &:hover {
+  }
 `;
