@@ -34,6 +34,7 @@ export const descriptionContainer = styled.div`
   flex-direction: column;
   padding: 0 0 10px 30px;
   color: #fff;
+
   h1 {
     font-style: normal;
     font-weight: 700;

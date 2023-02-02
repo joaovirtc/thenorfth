@@ -142,6 +142,10 @@ export const promotionContent = styled.div`
     color: #fff;
     padding: 10px;
 
+    p {
+      color: #ccc;
+    }
+
     @media screen and (max-width: 800px) {
       width: 100%;
       height: 100%;
@@ -159,7 +163,6 @@ export const promotionContent = styled.div`
   @media screen and (max-width: 800px) {
     flex-direction: column;
     height: 100%;
-    border: 1px solid #fff;
   }
 `;
 
@@ -167,7 +170,7 @@ export const Blur = styled.div`
   width: 200px;
   height: 200px;
   border-radius: 100%;
-  background: #00CC52;
+  background: #00cc52;
   filter: blur(200px);
   position: relative;
   z-index: -1000;

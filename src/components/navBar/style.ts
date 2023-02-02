@@ -7,7 +7,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   background-color: #040404;
-
+  z-index: 1000;
   @media screen and (max-width: 800px) {
     justify-content: center;
   }

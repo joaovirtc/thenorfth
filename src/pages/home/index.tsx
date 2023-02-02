@@ -1,7 +1,8 @@
 import * as S from "./styles";
 import BotaoPrimario from "../../components/botaoPrimario";
+import BotaoSecundario from "../../components/botaoSecundario";
 import { RiArrowRightSLine } from "react-icons/ri";
-import { RiAppleFill } from "react-icons/ri";
+import { RiAppleLine } from "react-icons/ri";
 import NFT from "../../assets/img.png";
 import CardDestaque from "../../components/cardDestaque";
 import ImageDestaque from "../../assets/nft-card.png";
@@ -15,7 +16,10 @@ export default function Home() {
             Compre sua primeira NFT aqui <br />
             no principal market place de NFTs do mundo
           </p>
-          <BotaoPrimario title="Explorar agora" icon={<RiArrowRightSLine />} />
+          <BotaoSecundario
+            title="Explorar agora"
+            icon={<RiArrowRightSLine />}
+          />
         </S.Content>
         <S.contentPrincipal>
           <h3>FIRST</h3>
@@ -58,7 +62,7 @@ export default function Home() {
               controle sobre suas financias, e também para ficar por dentro de
               todas as oscilações do mercado
             </p>
-            <BotaoPrimario title="Conectar com Apple" icon={<RiAppleFill />} />
+            <BotaoPrimario title="Conectar " icon={<RiAppleLine />} />
           </div>
           <section>
             <img src={Mockup} alt="" />
